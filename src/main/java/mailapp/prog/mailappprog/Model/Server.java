@@ -54,10 +54,17 @@ public class Server implements Runnable{
                 es.execute(new ServerOperation(socket.accept(), p));
             }catch(SocketException e){
                if(e.getMessage().compareToIgnoreCase("socket closed") == 0){
-                   System.out.println("[+] chiusura richiesta da GUI");
+                   p.addLog("Il server ha concluso la sua attività");
                }
             } catch (IOException e) {
-                System.err.println("vi è un problema IO");
+                p.printErrorLog(e);
+            }finally{
+                try {
+                    closeConnection();
+                } catch (InterruptedException | IOException e) {
+                    p.printErrorLog(e);
+                    thisThread.interrupt(); // preservo lo stato di interrupt
+                }
             }
         }
     }

@@ -5,31 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c074c9c1-8334-4132-ab61-313cda12422e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/Controller/ClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/Controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/Controller/SendingMailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/Controller/ServerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/Controller/ServerOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/Model/Casella.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/Model/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/Model/Persistence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/Model/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/Model/ServerLogs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/View/ClientGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/View/ServerGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mailapp/prog/mailappprog/View/ClientApplication.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mailapp/prog/mailappprog/View/LoginApplication.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mailapp/prog/mailappprog/View/SendingMailView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mailapp/prog/mailappprog/View/ServerApplication.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mailapp/prog/mailappprog/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/Model/Persistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/Model/Persistence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/Model/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/Model/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +37,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/daniel/Documents/MailAppProg/src/main/resources/mailapp/prog/mailappprog"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/daniel/Documents/MailAppProg/src/main/resources/mailapp/prog/mailappprog&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/mailapp/prog/mailappprog" />
