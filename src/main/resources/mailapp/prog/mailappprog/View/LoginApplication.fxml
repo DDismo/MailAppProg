@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="loginPane" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prog.mailapp.Controller.LoginController">
+   <children>
+      <Label fx:id="loginUserLabel" alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="RIGHT_TO_LEFT" prefWidth="300.0" text="User Email:" textAlignment="JUSTIFY">
+         <graphic>
+            <TextField fx:id="loginTextField" alignment="CENTER_RIGHT" cacheShape="false" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="RIGHT_TO_LEFT" prefWidth="200.0" promptText="example@example.com" />
+         </graphic>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin></Label>
+      <Button fx:id="loginButton" mnemonicParsing="false" onAction="#generazioneCasella" text="Login">
+         <VBox.margin>
+            <Insets top="25.0" />
+         </VBox.margin></Button>
+      <Label fx:id="loginErrorMessage" focusTraversable="false" text="Label" textAlignment="JUSTIFY" textFill="RED" visible="false">
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </Label>
+   </children>
+</VBox>

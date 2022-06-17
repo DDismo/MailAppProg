@@ -5,20 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c074c9c1-8334-4132-ab61-313cda12422e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/Controller/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/Controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/Controller/SendingMailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/Controller/ServerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/Controller/ServerOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/Model/Casella.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/Model/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/Model/Persistence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/Model/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/Model/ServerLogs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/View/ClientGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/View/ServerGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mailapp/prog/mailappprog/View/ClientApplication.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mailapp/prog/mailappprog/View/LoginApplication.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mailapp/prog/mailappprog/View/SendingMailView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mailapp/prog/mailappprog/View/ServerApplication.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mailapp/prog/mailappprog/HelloController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mailapp/prog/mailappprog/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mailapp/prog/mailappprog/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mailapp/prog/mailappprog/hello-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2AhMjT19JmEFWvwEwYoFoUzONU0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,9 +61,40 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/daniel/Documents/MailAppProg/src/main/resources/mailapp/prog/mailappprog"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/mailapp/prog/mailappprog" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/mailapp/prog/mailappprog/View" />
+      <recent name="$PROJECT_DIR$/src/main/resources/mailapp/prog/mailappprog" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ServerGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mailapp.prog.mailappprog.View.ServerGUI" />
+      <module name="MailAppProg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mailapp.prog.mailappprog.View.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ServerGUI" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

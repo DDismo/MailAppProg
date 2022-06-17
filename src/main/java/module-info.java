@@ -3,6 +3,9 @@ module mailapp.prog.mailappprog {
     requires javafx.fxml;
 
 
-    opens mailapp.prog.mailappprog to javafx.fxml;
-    exports mailapp.prog.mailappprog;
+    opens mailapp.prog.mailappprog.View to javafx.fxml;
+    exports mailapp.prog.mailappprog.View;
+
+    opens mailapp.prog.mailappprog.Controller to javafx.fxml;
+    exports mailapp.prog.mailappprog.Controller;
 }

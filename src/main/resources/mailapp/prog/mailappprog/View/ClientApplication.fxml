@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="249.0">
+         <children>
+            <Label fx:id="clientUsername" alignment="CENTER" contentDisplay="RIGHT" prefHeight="113.0" prefWidth="205.0" text="Unknown" />
+            <ListView fx:id="clientMailsView" cacheHint="SPEED" prefHeight="366.0" prefWidth="200.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ListView>
+         </children>
+         <HBox.margin>
+            <Insets left="5.0" right="5.0" />
+         </HBox.margin>
+         <padding>
+            <Insets bottom="5.0" />
+         </padding>
+      </VBox>
+      <VBox prefHeight="400.0" prefWidth="440.0">
+         <children>
+            <VBox prefHeight="366.0" prefWidth="390.0">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label fx:id="mailMittente" prefHeight="36.0" prefWidth="376.0">
+                           <graphic>
+                              <Label text="From:" />
+                           </graphic>
+                        </Label>
+                        <Label fx:id="mailDestinatari" prefHeight="31.0" prefWidth="376.0">
+                           <graphic>
+                              <Label text="Sent to:" />
+                           </graphic>
+                        </Label>
+                        <Label fx:id="mailTitolo" prefHeight="37.0" prefWidth="376.0">
+                           <graphic>
+                              <Label text="Titolo del messaggio:" />
+                           </graphic>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </VBox>
+                  <TextArea fx:id="messaggioMail" editable="false" focusTraversable="false" prefHeight="316.0" prefWidth="396.0" promptText="Messaggio della mail..." wrapText="true" />
+               </children>
+            </VBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="28.0" prefWidth="396.0">
+               <children>
+                  <Button fx:id="deleteButton" mnemonicParsing="false" text="Delete">
+                     <HBox.margin>
+                        <Insets bottom="5.0" right="10.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="replyButton" mnemonicParsing="false" text="Reply">
+                     <HBox.margin>
+                        <Insets bottom="5.0" right="10.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="replyAllButton" mnemonicParsing="false" text="Reply-All">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="sendEmailButton" mnemonicParsing="false" text="Send Email" />
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="5.0" right="10.0" />
+         </padding>
+      </VBox>
+   </children>
+</HBox>
